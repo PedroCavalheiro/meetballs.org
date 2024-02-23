@@ -23,11 +23,15 @@
                     <a
                         href="{{ link.url }}"
                         class="text-neutral-600 hover:text-neutral-800">
-                        {% if link.icon == "website" %}{{ icons::globe_alt(class="inline-block w-5 h-5") }}{% endif %}
+                        {% if link.icon == "website" %}
+                            {{ icons::globe_alt(class="inline-block w-5 h-5") }}
+                        {% endif %}
                         {% if link.icon == "github" %}
                             {{ icons::github(class="inline-block w-5 h-5") }}
                         {% endif %}
-                        {% if link.icon == "unknown" %}{{ icons::arrow_top_right_on_square(class="inline-block w-5 h-5") }}{% endif %}
+                        {% if link.icon == "unknown" %}
+                            {{ icons::arrow_top_right_on_square(class="inline-block w-5 h-5") }}
+                        {% endif %}
                     </a>
                 {% endfor %}
             </div>

@@ -19,15 +19,14 @@
                 <br />
                 Brewed with
                 <br />
-                geek love {{ icons::heart(class="h-6 w-6 inline-block") }}
+                geek love {{ icons::heart(class="inline-block h-6 w-6") }}
             </p>
         </div>
     </div>
     <div class="bg-amber-800 p-4 text-center text-xl text-white">
         <p>Wednesdays at IKEA Loulé</p>
         {# Time till next meet #}
-        {# Meetings are on Wednesdays from 19:00 to 21:00
-    #}
+        {# Meetings are on Wednesdays from 19:00 to 21:00 #}
         <p class="font-bold">
             <span>Next meet:</span>
             {# Format: Wednesday 20th, 19:00 #}
