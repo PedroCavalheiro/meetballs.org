@@ -1,0 +1,5 @@
+# Ignore the built tailwindcss file
+public/main.css
+
+# Ignore README.md
+README.md

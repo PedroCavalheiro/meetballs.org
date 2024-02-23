@@ -13,4 +13,11 @@ fn main() {
         ])
         .status()
         .unwrap();
+
+    // Run prettier for the templates
+    // This ensures that the tailwind classes are in the right order
+    Command::new("npx")
+        .args(["prettier", "--write", "."])
+        .status()
+        .unwrap();
 }
